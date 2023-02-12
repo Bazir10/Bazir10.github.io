@@ -1,0 +1,15 @@
+p,
+h1 {
+    color: blueviolet;
+} 
+
+.ma-classe {
+color: chocolate;
+}    
+.ma-classe-2 {
+color: rgb(233, 138, 138);
+}    
+
+.grand-texte {
+font-size: 30px
+}
