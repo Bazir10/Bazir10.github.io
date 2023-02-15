@@ -1,15 +1,48 @@
-p,
-h1 {
-    color: blueviolet;
-} 
-
-.ma-classe {
-color: chocolate;
+/* General */
+html,body {
+   font-family: Raleway; 
+}
+.flexCentre {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.decorationNone {
+    text-decoration: none;
+}
+/*NAV*/ 
+.sizeNav {
+    height: 100px;
+}
+.sizeLiens {
+    width: 45%;
+}
+.sizeLien {
+    width: 113px;
+    height: 19px;
+}
+.colorLien1 {
+    color: blue ;
+}
+.colorLien2 {
+    color: black;
+}
+.bordureNav {
+    border-top: 1px solid blue;
+}
+.bordureNav2 {
+    border-top: 1px solid transparent;
 }    
-.ma-classe-2 {
-color: rgb(233, 138, 138);
-}    
-
-.grand-texte {
-font-size: 30px
+.margelogo {
+    margin-bottom: 7px;
 }
