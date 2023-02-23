@@ -49,59 +49,60 @@ html,body {
 }
  /*NAV*/ 
  .sizeNav {
-     height: 100px;
+     height: 6.25em;
  }
  
  .sizeLien {
-     width: 113px;
-     height: 19px;
+     width: 7.0625em;
+     height: 1.1875em;
  }
  .colorLien2 {
      color: black;
  }
 
  .bordureNav {
-     border-top: 1px solid blue;
+     border-top: 0.0625em solid blue;
  }
  .bordureNav2 {
-     border-top: 1px solid transparent;
+     border-top: 0.0625em solid transparent;
  }    
  .margelogo {
-     margin-bottom: 7px;
+     margin-bottom: 0.4375em;
  }
+
  /*HEADER*/
  .bordureSearch {
-     width: 400px;
-     border-radius: 10px;
-     border: 0.5px solid #f2f2f2;
+     width: 25em;
+     border-radius: 0.625em;
+     border: 0.03125em solid #f2f2f2;
  }
  .paddingSearch {
-     padding-left: 20px;
+     padding-left: 1.25em;
  }
  .recherche {
-     height: 50px;
-     width: 230px;
-     font-size: 18px;
+     height: 3.125em;
+     width: 14.375em;
+     font-size: 1.125em;
      color: black;
      font-weight: bold;
  }
  .iconSize {
-     height: 50px;
-     width: 50px;
-     border-radius: 10px 0 0 10px;
+     height: 3.125em;
+     width: 3.125em;
+     border-radius: 0.625em 0 0 0.625em;
  }
  .buttonSearch {
-     height: 50px;
-     width: 120px;
+     height: 3.125em;
+     width: 7.5em;
      color: white;
      cursor: pointer;
-     border-radius: 0 10px 10px 0;
+     border-radius: 0 0.625em 0.625em 0;
  }
 
  /* FILTRES */
 .margFiltre {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 3.125em;
+    margin-bottom: 2.5em;
 }
 
 .filtre {
@@ -109,14 +110,14 @@ html,body {
     align-items: center;
  }
  .margeFiltreTitre {
-    margin-right: 20px;
+    margin-right: 1.25em;
 
  }
  .filtreTexteIcons {
-    border: 2px solid #f2f2f2;
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
+    border: 0.125em solid #f2f2f2;
+    height: 3.125em;
+    border-radius: 1.875em;
+    margin-right: 1.25em;
 
  }
  .filtreTexteIcons:hover > .filtreTexte {
@@ -128,16 +129,16 @@ html,body {
     background-color: #0065fc;
  }
  .filtreTexte {
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
+    height: 3.125em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    border-radius: 0 1.563em 1.563em 0;
  }
  .filtreIcons {
-    margin-left: -2px;
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
+    margin-left: -0.125em;
+    border-radius: 1.563em;
+    width: 3.25em;
+    height: 3.25em;
     color: #0065fc;
     background-color: #deebff;
 
