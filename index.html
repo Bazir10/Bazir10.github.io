@@ -14,17 +14,19 @@
         <body>
             <header>
                 <nav id="nav">
+                    <div class="flexbetween ">
                     <a class="nav-logo" href="#">
                         <img src="./assets/logo/Booki@3x.png" alt="">
                     </a>
-                    <ul>
+                    <ul class="sizeliens flexaround">
                         <li>
-                            <a href="#hosting">Hébergements</a>
+                            <a class="clorliens" href="#hosting">Hébergements</a>
                         </li>
                         <li>
                             <a href="#activity">Activités</a>
                         </li>
                     </ul>
+                    </div>
                 </nav>
         <!-- RECHERCHE -->
         <header>
@@ -52,28 +54,28 @@
 
          <div class="filter-container">
             <ul>
-                <li class="filter-title">Filtres</li>
+                <div class="filter-title">Filtres</div>
 
-                <li class="filter">
-                    <i class="fa-solid fa-money-bill-wave"></i>
+                <div class="filter">
+                    <i class="fa-solid fa-money-bill-wave filtreicons flexcentre"></i>
                     <input type="checkbox" id="economics" name="filter-selectable" value="economics">
                     <label for="economics">Économique</label>
-                </li>
-                <li class="filter">
-                    <i class="fa-solid fa-child-reaching"></i>
+                </div>
+                <div class="filter">
+                    <i class="fa-solid fa-child-reaching filtreicons flexcentre"></i>
                     <input type="checkbox" id="family" name="filter-selectable" value="family">
                     <label for="family">Familial</label>
-                </li>
-                <li class="filter">
-                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="filter">
+                    <i class="fa-solid fa-heart filtreicons flexcentre"></i>
                     <input type="checkbox" id="romantic" name="filter-selectable" value="romantic">
                     <label for="romantic">Romantique</label>
-                </li>
-                <li class="filter">
-                    <i class="fa-solid fa-dog"></i>
+                </div>
+                <div class="filter">
+                    <i class="fa-solid fa-dog filtreicons flexcentre"></i>
                     <input type="checkbox" id="pet" name="filter-selectable" value="pet">
                     <label for="pet">Animaux autorisés</label>
-                </li>
+                </div>
             </ul>
         </div>
     </form>

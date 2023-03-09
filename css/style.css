@@ -1,5 +1,26 @@
 /* General */
+.flexcentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexaround {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sizeliens {
+    width: 45%;
+}
 
+.colorliens {
+    color: blue;
+}
  .texteGras {
      font-weight: bold;
  }
@@ -54,11 +75,8 @@ body main , #nav {
 #nav ul>li:hover a {
     color: var(--blue);
 }
-#nav a {
-    float: left;
-    font-weight: bold;
-    text-align: left;  
-}
+ 
+
 .nav-logo {
     align-self: center;
 }
@@ -143,18 +161,28 @@ body main , #nav {
     padding: 0 1rem 0 0;
     display: flex;
     width: fit-content;
-    height: fit-content;
-    border-radius: 2rem;
+    height: 3.125rem;
+    border: 0.125rem solid #F2F2F2 ;
+    border-radius: 1.875rem;
     align-items: center;
     box-shadow: inset 0 0 0 2px #d9d9d9;
     transition: transform .2s;
     position: relative;
     user-select: none;
+    margin-right: 1.25rem;
+}
+.filtreicons {
+    border-radius: 1.563rem;
+    width: 3.25rem;
+    height: 3.25rem;
+    color: #0065FC;
+    background-color: #DEEBFF;
 }
 .filter-container {
     transform: translateY(-5px);
     cursor: pointer;
 }
+
 
  /* Hébergements */
 #hosting {
