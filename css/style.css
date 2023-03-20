@@ -1,4 +1,50 @@
 /* General */
+
+
+
+:root {
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey: #F2F2F2;
+    --heavy-grey: #d9d9d9;
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Raleway-Regular";
+    font-weight: 300;
+}
+html {
+    scroll-behavior: smooth;
+}
+body main , #nav {
+    padding: 0 4rem;
+}
+
+
+
+
 .flexcentre {
     display: flex;
     justify-content: center;
@@ -47,48 +93,9 @@ body main , #nav {
 }
 
  /* NavBar HEADER*/
- */
-#nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-#nav ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-#nav ul>li {
-    display: inline;
-    padding: 3rem 2.5rem;
-    
-}
-#nav ul>li:hover {
-    box-shadow: inset 0 20px 0px -17px var(--blue);
-}
-#nav ul>li a{
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-}
-#nav ul>li:hover a {
-    color: var(--blue);
-}
- 
 
-.nav-logo {
-    align-self: center;
-}
-.nav-logo img {
-    height: 4rem;
-}
-.text-align {
-    border-end-end-radius: ;
-}
- /* FILTRES */ 
 
-#search-filter-container {
+ #search-filter-container {
     margin-bottom: 1.5rem;
 }
 .search-title-container {
@@ -137,63 +144,253 @@ body main , #nav {
 }
 .search-container .search i {
     display: none;
-}
+} 
 
-.filter-container {
-    margin-bottom: 1.5rem;
+
+ 
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
-.filter-container ul {
+#nav ul {
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
 }
-.filter-container ul>li {
+#nav ul>li {
     display: inline;
+    padding: 3rem 2.5rem;
+    
 }
-.filter-container ul .filter-title {
-    font-family: "Raleway-Bold";
-    font-size: .85rem;
+#nav ul>li:hover {
+    box-shadow: inset 0 20px 0px -17px var(--blue);
 }
-.filter-container .filter {
-    padding: 0 1rem 0 0;
+#nav ul>li a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+#nav ul>li:hover a {
+    color: var(--blue);
+}
+ 
+
+.nav-logo {
+    align-self: center;
+}
+.nav-logo img {
+    height: 4rem;
+}
+.text-align {
+    border-end-end-radius: ;
+}
+ /* FILTRES */
+ 
+
+
+ .searchFilters {
     display: flex;
-    width: fit-content;
-    height: 3.125rem;
-    border: 0.125rem solid #F2F2F2 ;
-    border-radius: 1.875rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .searchFiltersTitle {
+    margin: 0 2rem 1rem 0;
+    display: flex;
     align-items: center;
-    margin-right: 1.25rem;
-}
-.filtreicons {
-    border-radius: 1.563rem;
-    width: 3.25rem;
-    height: 3.25rem;
-    color: #0065FC;
-    background-color: #DEEBFF;
-}
-.filter-container {
-    transform: translateY(-5px);
+  }
+  .searchFiltersFilter {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
     cursor: pointer;
-}
-.filtreTextIcons:hover > .filtertexte {
+    transition-duration: 0.1s;
+    font-weight: bold;
+  }
+  .searchFiltersFilter:last-child {
+    margin-right: 0;
+  }
+  .searchFiltersFilter:hover {
+    background-color: #f3f8ff;
+    transform: scale(1.015);
+  }
+  .searchFiltersFilterWrapicon {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+  }
+  .searchFiltersFilterWrapiconIcon {
+    color: blue;
+  }
+  .searchFiltersFilterTitle {
+    margin: 0 1rem;
+  }
+  .searchResult {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+  }
+  .searchResultWrapicon {
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  .searchResultWrapiconIcon {
     color: #0065FC;
-}
-.filtreTextIcons:hover > .filtreicons {
-    color: white;
+  }
+  .searchResultText {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .searchForm {
+      display: flex;
+      width: 100%;
+    }
+    .searchFormSearchinput {
+      flex: 1;
+    }
+    .searchFormSubmitinputText {
+      display: none;
+    }
+    .searchFormSubmitinputIcon {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .searchFiltersTitle {
+      width: 100%;
+    }
+    .searchFiltersFilter {
+      margin-right: 1rem;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .searchFormSubmitinputText {
+      display: block;
+    }
+    .searchFormSubmitinputIcon {
+      display: none !important;
+    }
+  }
+ /* FILTRES */ 
+ .searchHeaderTitle {
+    margin-bottom: 0.5rem;
+  }
+  .searchHeaderSubtitle {
+    margin-top: 0;
+  }
+  .searchForm {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+  }
+  .searchFormWrapicon {
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+  }
+  .searchFormWrapiconIcon {
+    margin-left: 0.1rem;
+  }
+  .searchFormSearchinput {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 14rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+  }
+  .searchFormSearchinput::placeholder {
+    font-family: "Raleway", "Sans serif";
+    font-size: 1rem;
+    color: #00000069;
+  }
+  .searchFormSubmitinput {
     background-color: #0065FC;
-}
-.filtertexte {
-    height: 3.125rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    border-radius: 0 1.563rem 1.563rem 0;
-}
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    font-family: "Raleway", "Sans serif";
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .searchHeaderTitle {
+    margin-bottom: 0.5rem;
+  }
+  .searchHeaderSubtitle {
+    margin-top: 0;
+  }
+  .searchForm {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+  }
+  .searchFormWrapicon {
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+  }
+  .searchFormWrapiconIcon {
+    margin-left: 0.1rem;
+  }
+  .searchFormSearchinput {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 14rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+  }
+  .searchFormSearchinput::placeholder {
+    font-family: "Raleway", "Sans serif";
+    font-size: 1rem;
+    color: #00000069;
+  }
+  .searchFormSubmitinput {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    font-family: "Raleway", "Sans serif";
+    font-size: 1rem;
+    cursor: pointer;
+  }
 
 /* Hosting */
-
 
 .hostingWrapper, .hostingPopular, .hostingMain {
     background-color: #F2F2F2;
