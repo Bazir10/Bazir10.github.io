@@ -135,6 +135,7 @@ a {
 .search-container {
     display: flex;
     margin-bottom: 1.5rem;
+
 }
 .search-container > span {
     background-color: var(--grey);
@@ -149,6 +150,9 @@ a {
     border-bottom: 1px solid var(--grey);
     width: 13rem;
     min-width: 7rem;
+    font-family: 'Raleway Bold', arial;
+    font-weight: bold;
+
 }
 .search-container .search {
     font-family: "Raleway-Bold";
@@ -157,9 +161,12 @@ a {
     border-radius: 0 1rem 1rem 0;
     color: white;
     padding: 1rem;
+    font-family: 'Raleway Bold', arial;
+
 }
 .search-container .search:hover {
     background-color: #0051ca;
+
 }
 .search-container .search i {
     display: none;
