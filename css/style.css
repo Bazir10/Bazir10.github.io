@@ -45,8 +45,6 @@ body main , #nav {
 
 
 
-
-
 /*HEADER*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 body {
@@ -109,6 +107,7 @@ a {
     .headerNavLink:hover {
       border-top: 3px solid #0065FC;
     }
+    
   }
 
   @media screen and (max-width: 600px) {
@@ -135,6 +134,11 @@ a {
     }
     .headerNavLink:hover {
       border-bottom-color: #0065FC;
+    }
+    .headerImg {
+      grid-area: logo;
+      padding-left: 8rem;
+      height: 2.813rem;
     }
   }
  
