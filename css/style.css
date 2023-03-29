@@ -524,6 +524,9 @@ a {
     .hostingPopularTitle {
       grid-column: 1/-1;
     }
+    .hostingMain {
+      background-color: white;
+    }
 
 }
 @media (min-width: 925px) {
