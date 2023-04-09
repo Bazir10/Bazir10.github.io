@@ -137,8 +137,8 @@ a {
     }
     .headerImg {
       grid-area: logo;
-      padding-left: 8rem;
-      height: 2.813rem;
+      padding-left: 10rem;
+      height: 2rem;
     }
   }
  
@@ -241,8 +241,9 @@ a {
     height: 4rem;
 }
 .text-align {
-    border-end-end-radius: ;
+  border-end-end-radius: ;
 }
+
  /* FILTRES */
  
 
@@ -531,6 +532,7 @@ a {
     .hostingMain {
       background-color: white;
     }
+    
 
 }
 @media (min-width: 925px) {
@@ -552,6 +554,15 @@ a {
   .hostingPopular {
     grid-template-columns: 1fr;
     grid-template-rows: auto repeat(3, 9rem);
+  }
+  .hostingMainCard {
+    background-color: white;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 115%;
   }
 }
 
@@ -632,7 +643,7 @@ a {
     .activity {
       row-gap: 2rem;
       grid-template-columns: 1fr;
-      grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+      grid-template-rows: auto 12rem 12rem 12rem 12rem ;
     }
   }
 
@@ -685,3 +696,7 @@ a {
       margin-bottom: 0;
     }
   }
+
+
+
+
