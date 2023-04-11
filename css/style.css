@@ -561,8 +561,7 @@ a {
     box-shadow: 0 0 16px #0000002e;
     transition-duration: 0.1s;
     cursor: pointer;
-    box-sizing: border-box;
-    height: 115%;
+    box-sizing: border-box;    
   }
 }
 
