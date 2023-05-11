@@ -204,9 +204,28 @@ a {
 }
 .search-container .search i {
     display: none;
-} 
+}
 
+@media screen and (max-width: 768px) {
+.search-container .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 16px;
+  gap: 10px;
 
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  right: 0px;
+  top: calc(50% - 49px/2);
+
+  background: #0065FC;
+
+  border: 1px solid #0065FC;
+  border-radius: 15px;
+}
+}
  
   #nav {
     display: flex;
@@ -525,9 +544,10 @@ a {
     }
     .hostingPopular {
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 11rem;
+      grid-template-rows: auto 7rem;
       column-gap: 2rem;
-      grid-row-start: 1;
+      grid-row-start: 1;      
+
     }
     .hostingPopularTitle {
       grid-column: 1/-1;
