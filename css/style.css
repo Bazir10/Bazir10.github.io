@@ -208,25 +208,10 @@ a {
 
 @media screen and (max-width: 768px) {
 .search-container .search {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 15px 16px;
-  gap: 10px;
-
-  position: absolute;
-  width: 49px;
-  height: 49px;
-  right: 0px;
-  top: calc(50% - 49px/2);
-
-  background: #0065FC;
-
-  border: 1px solid #0065FC;
-  border-radius: 15px;
+  display: none;
 }
-}
- 
+} 
+
   #nav {
     display: flex;
     justify-content: space-between;
