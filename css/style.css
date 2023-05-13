@@ -207,8 +207,8 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-.search-container .search {
-  display: none;
+.search {
+  appearance: auto;
 }
 } 
 
@@ -348,7 +348,9 @@ a {
     }
     .searchFiltersFilter {
       margin-right: 1rem;
+      font-size: small;
     }
+    
   }
   @media screen and (min-width: 768px) {
     .searchFormSubmitinputText {
