@@ -360,9 +360,9 @@ a {
       font-size: small;
     }
   }
-    @media screen and (min-width: 768px) {
-    .search {
-      display: ;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .searchFilters {
+      font-size:x-small ;
     }
     }
 
@@ -370,8 +370,8 @@ a {
     .searchFiltersTitle {
       width: 100%;
     }
-    .searchFiltersFilter {
-      margin-right: 1rem;
+    .searchFiltersFilter {   
+    margin-right: 1rem;
       font-size: small;
     }
     
@@ -556,7 +556,7 @@ a {
       font-size: 0.7rem;
     }
     .hostingPopular {
-      grid-template-columns: auto;
+      grid-template-columns: auto 16rem 16rem 0rem;
       grid-template-rows: auto 11rem;
       column-gap: 2rem;
       grid-row-start: 2;      
@@ -578,18 +578,15 @@ a {
 }
 @media (max-width: 1024px) and (min-width: 768px) {
   .hostingMain {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: revert 1fr;
   }
 }
-@media (max-width: 1024px) {
-  .hostingMain {
-    grid-template-columns: 1fr;
-  }
-}
+
 @media (max-width: 1024px) {
   .hostingPopular {
-    grid-template-columns: 1fr;
+
     grid-template-rows: auto repeat( 9rem);
+    font-size: large;
   }
   .hostingMainCard {
     background-color: white;
@@ -642,7 +639,7 @@ a {
     .activity {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto 14rem 2rem  2rem 14rem;
-      flex-direction: ;
+      flex-direction: column-reverse;
     }
     .activityCard1 {
       grid-row: 2/7;
@@ -664,25 +661,17 @@ a {
   }
   @media (max-width: 1024px) {
     .activity {
-      row-gap: 2rem;
+      row-gap: 0.5rem;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: auto 12rem 12rem;
+      grid-template-rows: auto 12rem 12rem 12rem 12rem;
     }
   }
   @media (max-width: 1024px) {
     .activity {
-      row-gap: 2rem;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 12rem 12rem 12rem;
+      grid-template-columns: auto;
     }
   }
-  @media (max-width: 1024px) {
-    .activity {
-      row-gap: 2rem;
-      grid-template-columns: (2,1fr);
-      grid-template-rows: auto 12rem 12rem 12rem 12rem  ;
-    }
-  }
+ 
     @media (max-width: 1024px) and (min-width: 768px) {
       .activity {
         row-gap: 2rem;
@@ -698,6 +687,12 @@ a {
         grid-template-rows: auto 1rem 1rem 1rem 1rem 1rem
         }
   }
+
+  @media (max-width: 1024px) {
+    .activityTitle  {
+      font-size: x-large;
+      }
+}
   /* FOOTER */
 
   .footer {
