@@ -42,6 +42,11 @@ body main , #nav {
     padding: 0 3rem;
 }
 
+
+i {
+  color: ;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     display: block
@@ -511,7 +516,7 @@ a {
   .hostingPopular {
     display: grid;
     row-gap: 2rem;
-    align-items: start;
+    align-items: normal;
     grid-template-rows: auto repeat(3, 1fr);
   }
   .hostingPopularTitle {
@@ -569,11 +574,10 @@ a {
     .hostingMain {
       background-color: white;
       grid-template-columns: auto;
-    }
+  }
     
     
-
-}
+  }
 
 @media (max-widht: 768px) and (max-widht: 1024px) {
   .hostingMain {
@@ -592,13 +596,19 @@ a {
   }
 }
 
-@media (max-width: 1024px) {
+@media  (max-width: 1024px) and (max-width: 768px) {
   .hostingPopular {
-    grid: none;
-    grid-template-columns: auto;
-    grid-template-rows: auto repeat( 9rem);
+    background-color: var(--grey);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
     font-size: medium;
-  }
+}
+
+  
   .hostingMainCard {
     background-color: white;
     border-radius: 1.25rem;
@@ -608,6 +618,12 @@ a {
     box-sizing: border-box; 
     height: 11rem;   
   }
+}
+
+@media (max-width: 768px) {
+    .hostingPopular {
+    grid-row-start: 1;
+    }
 }
 
 /* ACTIVITY */
