@@ -54,7 +54,13 @@ i {
 }  
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    margin: 12rem
+    margin: 12rem;
+    display: inline-grid;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main {
+    display: inline-block
   }
 }
 
@@ -123,7 +129,12 @@ a {
     }
     
   }
- 
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+      grid-template-columns: auto 64rem;
+      grid-template-areas: "logo . navbar button";
+    }
+  } 
 
   @media screen and (max-width: 1024px) and (max-width: 768px) {
     .header {
@@ -568,9 +579,9 @@ a {
       font-size: 0.7rem;
     }
     .hostingPopular {
-      grid-template-columns: auto 16rem 16rem 16rem 0rem  ;
+      grid-template-columns: 22rem auto 23rem 6rem 0rem  ;
       grid-template-rows: auto 11rem;
-      column-gap: 1rem;
+      column-gap: 2rem;
       grid-row-start: 2;      
 
     }
@@ -720,7 +731,7 @@ a {
     @media (max-width: 1024px) and (min-width: 768px) {
       .activity {
         row-gap: 2rem;
-        grid-template-columns: 12rem;
+        grid-template-columns: auto 18rem 20rem 21rem;
         grid-template-rows: auto 1rem 1rem 1rem 1rem 9rem ;
       }
   }
@@ -797,5 +808,10 @@ a {
       flex-direction: inherit;
     }             
 }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+      display: inline-table;
+    }
+  }
 
 
