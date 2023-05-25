@@ -42,12 +42,6 @@ body main , #nav {
     padding: 0 3rem;
 }
 
-
-i {
-  color: ;
-}
-
-
 /*HEADER*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 body {
@@ -159,9 +153,7 @@ a {
     background-color: #0051ca;
 
 }
-.search-container .search i {
-    display: ;
-}
+
 
 @media screen and (max-width: 768px) {
   .search-container .search {
@@ -214,9 +206,6 @@ a {
 }
 .nav-logo img {
     height: 4rem;
-}
-.text-align {
-  border-end-end-radius: ;
 }
 
 
@@ -368,7 +357,7 @@ a {
     grid-column: 1/-1;
   }
   .hostingMainHeaderTitle {
-    margin: 0;
+    margin: 1rem;
     font-family: 'Raleway Bold', arial;
     padding: 0.2rem;
   }
