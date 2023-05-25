@@ -39,7 +39,11 @@ html {
     scroll-behavior: smooth;
 }
 body main , #nav {
-    padding: 0 3rem;
+    padding: 2rem 5rem;
+}
+
+.colorPopular {
+    color: #4a7ed9
 }
 
 /*HEADER*/
@@ -63,7 +67,7 @@ a {
   .headerImg {
     grid-area: logo;
     padding: 1rem;
-    height: 1.813rem;
+    height: 1.5rem;
   }
   .headerNav {
     display: flex;

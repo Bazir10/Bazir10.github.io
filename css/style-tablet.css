@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 /* General */
   body {
-    margin: 12rem;
+    margin: 0rem;
     display: inline-grid;
   }
   main {
@@ -15,16 +15,17 @@
 /* NavBar HEADER*/
 /* FILTRES */
   .searchFilters {
-    font-size:x-small ;
+    font-size:unset ;
   }
 /* Hosting */
   .hostingMain {
     grid-template-columns: revert 1fr;
+    background-color: #F2F2F2;
   }
 /* ACTIVITY */
   .activity {
     row-gap: 2rem;
-    grid-template-columns: auto 18rem 20rem 21rem;
+    grid-template-columns: auto 18rem 18rem 20rem;
     grid-template-rows: auto 1rem 1rem 1rem 1rem 9rem ;
   }
 /* FOOTER */

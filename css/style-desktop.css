@@ -24,7 +24,7 @@
     font-size: 0.7rem;
   }
   .hostingPopular {
-    grid-template-columns: 22rem auto 23rem 6rem 0rem  ;
+    grid-template-columns: 19rem auto 20rem 6rem 3rem  ;
     grid-template-rows: auto 11rem;
     column-gap: 2rem;
     grid-row-start: 2;      

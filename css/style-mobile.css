@@ -19,6 +19,9 @@
   .searchFormSubmitinputIcon {
     display: none !important;
   }
+  .searchFilters {
+    font-size: smaller;
+  }
 /* Hosting */
   .hostingMain {
     grid-template-columns: repeat(3, 1fr);
@@ -62,6 +65,10 @@
 @media screen and (max-width: 768px) {
 /* General */
 /*HEADER*/
+  .headerImg {
+    height: 1.5rem;
+    align-items: center;
+  }
 /* NavBar HEADER*/
   .search-container .search {
     width: 50px;
@@ -114,5 +121,10 @@
   .activityCard1 {
     height: 12rem;
   }
-/* FOOTER */		
+/* FOOTER */
+.footerColumnwrapper {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  } 				
 }
