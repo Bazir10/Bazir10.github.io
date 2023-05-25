@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* General */
+  body {
+    margin: 12rem;
+    display: inline-grid;
+  }
+  main {
+    display: inline-block
+  }
+/*HEADER*/
+  .header {
+    grid-template-columns: auto 64rem;
+    grid-template-areas: "logo . navbar button";
+  }
+/* NavBar HEADER*/
+/* FILTRES */
+  .searchFilters {
+    font-size:x-small ;
+  }
+/* Hosting */
+  .hostingMain {
+    grid-template-columns: revert 1fr;
+  }
+/* ACTIVITY */
+  .activity {
+    row-gap: 2rem;
+    grid-template-columns: auto 18rem 20rem 21rem;
+    grid-template-rows: auto 1rem 1rem 1rem 1rem 9rem ;
+  }
+/* FOOTER */
+  .footer {
+    display: inline-table;
+  }
+}
+
+
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+/* General */
+/* Header */
+  .header {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo . button" "navbar navbar navbar";
+  }
+  .headerimg {
+    order: 0;
+  }
+  .headerSignup {
+    order: 1;
+  }
+  .headerNav {
+    order: 2;
+  }
+  .headerNavLink {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    width: 50%;
+  }
+  .headerNavLink[data-active=true] {
+    border-bottom-color: #0065FC;
+  }
+  .headerNavLink:hover {
+    border-bottom-color: #0065FC;
+  }
+  .headerImg {
+    grid-area: logo;
+    padding-left: 9rem;
+    height: 2rem;
+  }
+/* NavBar HEADER*/
+/* FILTRES */
+/* Hosting */
+  .hostingMain {
+    display: contents;
+  }
+  .hostingPopular {
+    background-color: var(--grey);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    font-size: medium;
+} 
+  .hostingMainCard {
+    background-color: white;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box; 
+    height: 11rem;   
+  }
+/* ACTIVITY */
+/* FOOTER */    
+}

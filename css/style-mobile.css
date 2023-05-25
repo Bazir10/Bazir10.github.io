@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+/* General */
+/*HEADER*/
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+  }
+  .headerNavLink[data-active=true] {
+    border-top: 3px solid #0065FC;
+  }
+  .headerNavLink:hover {
+    border-top: 3px solid #0065FC;
+  }
+/* NavBar HEADER*/
+/* FILTRES */
+  .searchFormSubmitinputText {
+    display: block;
+  }
+  .searchFormSubmitinputIcon {
+    display: none !important;
+  }
+/* Hosting */
+  .hostingMain {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 4rem;
+  }
+/* ACTIVITY */
+  .activity {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem 2rem  2rem 14rem;
+    flex-direction: column-reverse;
+    min-width: 12rem;
+  }
+  .activityCard1 {
+    grid-row: 2/7;
+    grid-column: 1/2;
+    min-width: 12rem;
+  }
+  .activityCard2 {
+    grid-column: 2/3;
+    grid-row: 2/7;
+    min-width: 12rem;
+  }
+  .activityCard3 {
+    grid-column: 3/4;
+    grid-row: 2/7;
+    min-width: 12rem;
+  }
+  .activityCard4 {
+    grid-column: 4/5;
+    grid-row: 2/7;
+    min-width: 12rem;
+  }
+/* FOOTER */
+.footerColumnwrapper {
+    flex-direction: inherit;
+  } 		
+}
+
+
+
+@media screen and (max-width: 768px) {
+/* General */
+/*HEADER*/
+/* NavBar HEADER*/
+  .search-container .search {
+    width: 50px;
+    border-radius: 15px;
+    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+  
+  }
+  .desktopNone {
+    display: block;
+  }
+  .mobileNone {
+    display: none;
+  }
+/* FILTRES */
+  .searchForm {
+    display: flex;
+    width: 100%;
+  }
+  .searchFormSearchinput {
+    flex: 1;
+  }
+  .searchFormSubmitinputText {
+    display: none;
+  }
+  .searchFormSubmitinputIcon {
+    display: block;
+  }
+  .searchFilters {
+    display: flex;
+    font-size: small;
+  }
+  .searchFiltersTitle {
+    width: 100%;
+  }
+  .searchFiltersFilter {   
+  margin-right: 1rem;
+    font-size: small;
+  }
+/* Hosting */
+
+  .hostingPopular {
+    grid-row-start: 1;
+    }
+/* ACTIVITY */
+  .activityCard .activityCard1 .activityCard2 .activityCard3 .activityCard4  {
+    flex-direction: inherit;
+    grid-template-rows: auto 1rem 1rem 1rem 1rem 1rem;
+  }
+  .activityCard1 {
+    height: 12rem;
+  }
+/* FOOTER */		
+}
