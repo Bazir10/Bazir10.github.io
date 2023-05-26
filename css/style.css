@@ -43,7 +43,7 @@ body main , #nav {
 }
 
 .colorPopular {
-    color: #4a7ed9
+    color: #0065FC
 }
 
 /*HEADER*/
@@ -361,7 +361,7 @@ a {
     grid-column: 1/-1;
   }
   .hostingMainHeaderTitle {
-    margin: 1rem;
+    margin: inherit 1rem;
     font-family: 'Raleway Bold', arial;
     padding: 0.2rem;
   }
@@ -409,6 +409,7 @@ a {
   }
   .hostingMainViewmore {
     font-weight: bold;
+    padding: 1rem;
   }
   .hostingPopular {
     display: grid;
@@ -466,7 +467,7 @@ a {
 
   .activityTitle {
     grid-column: 1/-1;
-    margin: 1rem 2rem;
+    padding: 1rem;
   }
   .activityCard {
     box-shadow: 0 0 20px #0000002e;
