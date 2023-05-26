@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-/* General */
+/* General */ 
 /*HEADER*/
   .header {
     grid-template-columns: auto 1fr auto auto;
