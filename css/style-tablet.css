@@ -39,7 +39,6 @@
 /* General */
 /* Header */
   .header {
-    grid-template-columns: auto 1fr auto;
     grid-template-areas: "logo . button" "navbar navbar navbar";
   }
   .headerimg {

@@ -25,8 +25,10 @@
 /* Hosting */
   .hostingMain {
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 4rem;
+    padding: 0 4rem;  
   }
+
+
 /* ACTIVITY */
   .activity {
     grid-template-columns: repeat(4, 1fr);
@@ -64,6 +66,9 @@
 
 @media screen and (max-width: 768px) {
 /* General */
+  body main {
+    padding:2rem 0.5rem ;
+  }
 /*HEADER*/
   .headerImg {
     height: 1.5rem;
@@ -106,13 +111,17 @@
   }
   .searchFiltersFilter {   
   margin-right: 1rem;
-    font-size: small;
+    font-size: x-small;
   }
 /* Hosting */
 
   .hostingPopular {
     grid-row-start: 1;
-    }
+  }
+  .hostingMain {
+    padding: 20px;
+  }
+    
 /* ACTIVITY */
   .activityCard .activityCard1 .activityCard2 .activityCard3 .activityCard4  {
     flex-direction: inherit;
@@ -125,6 +134,5 @@
 .footerColumnwrapper {
     flex-direction: column;
     padding: 2rem;
-    text-align: center;
   } 				
 }
