@@ -359,11 +359,11 @@ a {
   }
   .hostingMainHeader {
     grid-column: 1/-1;
+    font-size: medium;
   }
   .hostingMainHeaderTitle {
     margin: inherit 1rem;
     font-family: 'Raleway Bold', arial;
-    padding: 0.2rem;
   }
   .hostingMainCard {
     background-color: white;
