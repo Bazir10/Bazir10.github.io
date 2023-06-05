@@ -355,7 +355,7 @@ a {
   .hostingMain {
     display: grid;
     column-gap: 2rem;
-    row-gap: 3rem;
+    row-gap: 1rem;
   }
   .hostingMainHeader {
     grid-column: 1/-1;
