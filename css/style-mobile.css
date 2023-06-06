@@ -28,7 +28,6 @@
     padding: 0 4rem;  
   }
 
-
 /* ACTIVITY */
   .activity {
     grid-template-columns: repeat(4, 1fr);
@@ -138,7 +137,6 @@
   .hosting {
     padding: 0rem;
   }
-  
     
 /* ACTIVITY */
   .activityCard .activityCard1 .activityCard2 .activityCard3 .activityCard4  {
