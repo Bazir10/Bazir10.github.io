@@ -70,7 +70,7 @@
   }
   .headerImg {
     grid-area: logo;
-    padding-left: 9rem;
+    padding-left: 10rem;
     height: 2rem;
   }
 /* NavBar HEADER*/
