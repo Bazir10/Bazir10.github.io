@@ -77,7 +77,7 @@
 /* FILTRES */
 /* Hosting */
   .hostingMain {
-    display: contents;
+    gap: inherit;
   }
   .hostingPopular {
     background-color: var(--grey);
