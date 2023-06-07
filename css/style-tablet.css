@@ -82,7 +82,7 @@
   .hostingPopular {
     background-color: var(--grey);
     padding: 40px;
-    border-radius: 20px;
+    border-radius: inherit;
     display: flex;
     flex-direction: column;
     gap: 30px;
