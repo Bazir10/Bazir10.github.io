@@ -47,11 +47,16 @@
   }
   .activity {
     grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
+    height: 55rem;
   }
   .activityTitle {
     font-size: x-large;
     }
-
+  .activityCard1 {
+    height: 29rem;
+  }
 /* FOOTER */ 
   .footerColumnwrapper {
     flex-direction: column;

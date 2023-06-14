@@ -476,6 +476,7 @@ a {
     display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
+    height: 29rem;
   }
   .activityCard:hover {
     transform: scale(1.01);
