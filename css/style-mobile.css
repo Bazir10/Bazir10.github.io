@@ -31,9 +31,9 @@
 /* ACTIVITY */
   .activity {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 14rem 2rem  2rem 14rem;
+    grid-template-rows: auto -1rem 3rem  2rem 14rem;
     min-width: 12rem;
-    height: 46rem;
+    height: 44rem;
 
   }
   .activityCard1 {
@@ -45,19 +45,19 @@
     grid-column: 2/3;
     grid-row: 2/7;
     min-width: 12rem;
-    height: 29rem;
+    height: 35rem;
   }
   .activityCard3 {
     grid-column: 3/4;
     grid-row: 2/7;
     min-width: 12rem;
-    height: 29rem;
+    height: 35rem;
   }
   .activityCard4 {
     grid-column: 4/5;
     grid-row: 2/7;
     min-width: 12rem;
-    height: 29rem;
+    height: 35rem;
   }
 /* FOOTER */
 .footerColumnwrapper {
@@ -101,6 +101,9 @@
   .mobileNone {
     display: none;
   }
+  .searchResult {
+    padding: 1rem;
+  }
 /* FILTRES */
   .searchForm {
     display: flex;
@@ -124,8 +127,8 @@
     width: 100%;
   }
   .searchFiltersFilter {   
-  margin-right: 1rem;
-    font-size: x-small;
+    margin-right: 1rem;
+    font-size: small;
   }
 /* Hosting */
 

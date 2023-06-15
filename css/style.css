@@ -410,6 +410,7 @@ a {
   .hostingMainViewmore {
     font-weight: bold;
     padding: 1rem;
+    font-size: medium;
   }
   .hostingPopular {
     display: grid;
@@ -476,7 +477,7 @@ a {
     display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
-    height: 29rem;
+    height: 35rem;
   }
   .activityCard:hover {
     transform: scale(1.01);
