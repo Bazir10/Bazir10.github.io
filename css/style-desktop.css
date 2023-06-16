@@ -50,9 +50,12 @@
     display: flex;
     flex-direction: column;
     height: 55rem;
+    
   }
   .activityTitle {
     font-size: x-large;
+    margin: auto 0rem;
+    padding: inherit;
     }
   .activityCard1 {
     height: 29rem;

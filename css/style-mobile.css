@@ -33,7 +33,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto -1rem 3rem  2rem 14rem;
     min-width: 12rem;
-    height: 44rem;
+    height: 45rem;
 
   }
   .activityCard1 {
@@ -45,19 +45,19 @@
     grid-column: 2/3;
     grid-row: 2/7;
     min-width: 12rem;
-    height: 35rem;
+    height: 46rem;
   }
   .activityCard3 {
     grid-column: 3/4;
     grid-row: 2/7;
     min-width: 12rem;
-    height: 35rem;
+    height: 46rem;
   }
   .activityCard4 {
     grid-column: 4/5;
     grid-row: 2/7;
     min-width: 12rem;
-    height: 35rem;
+    height: 46rem;
   }
 /* FOOTER */
 .footerColumnwrapper {
@@ -156,7 +156,8 @@
     height: 31rem;
   }
   .activity-section {
-    padding: 2rem;
+    padding: 1rem;
+    margin: auto;
   }
 /* FOOTER */
 .footerColumnwrapper {
