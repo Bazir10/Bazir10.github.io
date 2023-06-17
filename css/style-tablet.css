@@ -13,6 +13,11 @@
     grid-template-areas: "logo . navbar button";
   }
 /* NavBar HEADER*/
+  .headerNavLink[data-active=true] {
+    color: black;
+    transition-duration: 0.1s;
+}
+  } 
 /* FILTRES */
   .searchFilters {
     font-size:unset ;
