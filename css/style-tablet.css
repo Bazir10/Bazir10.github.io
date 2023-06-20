@@ -19,7 +19,6 @@
   }
 /* Hosting */
   .hostingMain {
-    grid-template-columns: revert 1fr;
     background-color: #F2F2F2;
     
   }
