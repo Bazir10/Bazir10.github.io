@@ -83,7 +83,8 @@ a {
     border-bottom: 3px transparent solid;
   }
   .headerNavLink[data-active=true] {
-    color: #0065FC;
+    border-top: 3px transparent solid;     
+    border-bottom: 3px transparent solid;
   }
   .headerNavLink:hover {
     color: #0065FC;
@@ -494,6 +495,7 @@ a {
   }
   .activityCardTitle {
     margin: 1.2rem 1.5rem;
+    font-size: smaller;
   }
   
  

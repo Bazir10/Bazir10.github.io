@@ -11,6 +11,11 @@
   .header {
     grid-template-columns: auto 64rem;
     grid-template-areas: "logo . navbar button";
+    column-gap: 32rem;  
+  }
+  .headerNav {
+    grid-template-columns: auto 20rem;
+    grid-template-areas: "logo . navbar button";
   }
 /* NavBar HEADER*/ 
 /* FILTRES */
@@ -36,7 +41,7 @@
     display: grid;
   }
   .activityCard {
-    height: 44rem;
+    height: 46rem;
 
   } 
 /* FOOTER */
@@ -70,10 +75,11 @@
     width: 50%;
   }
   .headerNavLink[data-active=true] {
-    border-bottom-color: #0065FC;
+    border-bottom: 3px #F2F2F2 solid;
   }
   .headerNavLink:hover {
-    border-bottom-color: #0065FC;
+    border-bottom-color: black
+    ;
   }
   .headerImg {
     grid-area: logo;

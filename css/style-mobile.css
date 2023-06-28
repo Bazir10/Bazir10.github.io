@@ -7,6 +7,8 @@
   }
   .headerNavLink[data-active=true] {
     border-top: 3px solid #0065FC;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid;
   }
   .headerNavLink:hover {
     border-top: 3px solid #0065FC;
