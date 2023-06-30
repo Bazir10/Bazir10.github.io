@@ -5,11 +5,10 @@
     display: grid;
   }
   main {
-    display: inline-block
+    display: grid
   }
   html,body {  
-    overflow-x:hidden;  
-    } 
+display: block;    } 
 /*HEADER*/
   .header {
     grid-template-columns: auto 64rem;
@@ -23,9 +22,15 @@
 /* NavBar HEADER*/ 
 /* FILTRES */
   .searchFilters {
-    font-size:unset ;
+    font-size:unset ;  
+  }
+  .searchFiltersFilter {
+
   }
 /* Hosting */
+  .hosting {
+    display: grid;
+    }
   .hostingMain {
     background-color: #F2F2F2;
     

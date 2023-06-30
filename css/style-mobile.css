@@ -106,6 +106,20 @@
   .searchResult {
     padding: 1rem;
   }
+
+  .search-container .search {
+    width: 50px;
+    border-radius: 15px;
+    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+  
+  }
+  .desktopNone {
+    display: block;
+  }
+  .mobileNone {
+    display: none;
+  }
 /* FILTRES */
   .searchForm {
     display: flex;
