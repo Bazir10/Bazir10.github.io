@@ -2,11 +2,14 @@
 /* General */
   body {
     margin: 0rem;
-    display: inline-grid;
+    display: grid;
   }
   main {
     display: inline-block
   }
+  html,body {  
+    overflow-x:hidden;  
+    } 
 /*HEADER*/
   .header {
     grid-template-columns: auto 64rem;

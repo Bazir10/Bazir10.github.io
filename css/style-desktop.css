@@ -1,3 +1,8 @@
+@media screen and (min-width: 1440px) {
+  .body {
+    margin: auto 10rem
+  };
+}
 @media screen and (min-width: 1024px) {
 /* General */
 /* Header */

@@ -26,7 +26,7 @@
     src: url("../fonts/Raleway-Bold.ttf");
 }
 
-
+ 
 
 
 body {
@@ -36,10 +36,11 @@ body {
     font-weight: 300;
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
-body main , #nav {
+body main,#nav  {
     padding: 2rem 3rem;
+    gap: 1rem;
 }
 
 .colorPopular {
