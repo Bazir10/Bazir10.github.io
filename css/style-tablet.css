@@ -1,125 +1,148 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-/* General */
+
+  /* General */
   body {
-    margin: 0rem;
-    display: grid;
+     margin: 0rem;
+     display: grid;
   }
+
   main {
-    display: grid
+     display: grid
   }
-  html,body {  
-display: block;    } 
-/*HEADER*/
+
+  html,
+  body {
+     display: block;
+  }
+
+  /*HEADER*/
   .header {
-    grid-template-columns: auto 64rem;
-    grid-template-areas: "logo . navbar button";
-    column-gap: 32rem;  
+     grid-template-columns: auto 64rem;
+     grid-template-areas: "logo . navbar button";
+     column-gap: 32rem;
   }
+
   .headerNav {
-    grid-template-columns: auto 20rem;
-    grid-template-areas: "logo . navbar button";
+     grid-template-columns: auto 20rem;
+     grid-template-areas: "logo . navbar button";
   }
-/* NavBar HEADER*/ 
-/* FILTRES */
+
+  /* NavBar HEADER*/
+  /* FILTRES */
   .searchFilters {
-    font-size:unset ;  
+     font-size: unset;
   }
-  .searchFiltersFilter {
 
-  }
-/* Hosting */
+  .searchFiltersFilter {}
+
+  /* Hosting */
   .hosting {
-    display: grid;
-    }
+     display: grid;
+  }
+
   .hostingMain {
-    background-color: #F2F2F2;
-    
+     background-color: #F2F2F2;
+
   }
+
   .hostingPopular {
-    grid-template-columns: 24rem auto 25rem 0rem 0rem;
-    grid-template-rows: auto 11rem;
-    column-gap: 2rem;
-    grid-row-start: 2;
+     grid-template-columns: 24rem auto 25rem 0rem 0rem;
+     grid-template-rows: auto 11rem;
+     column-gap: 2rem;
+     grid-row-start: 2;
   }
 
-/* ACTIVITY */
+  /* ACTIVITY */
   .activity {
-    column-gap: 2rem;
-    grid-template-rows: auto 14rem 4rem 4rem 4rem 9rem ;
-    display: grid;
+     column-gap: 2rem;
+     grid-template-rows: auto 14rem 4rem 4rem 4rem 9rem;
+     display: grid;
   }
-  .activityCard {
-    height: 46rem;
 
-  } 
-/* FOOTER */
+  .activityCard {
+     height: 46rem;
+
+  }
+
+  /* FOOTER */
   .footer {
-    display: inline-table;
+     display: inline-table;
   }
 }
 
 
 @media screen and (max-width: 1024px) and (max-width: 768px) {
-/* General */
-/* Header */
+
+  /* General */
+  /* Header */
   .header {
-    grid-template-areas: "logo . button" "navbar navbar navbar";
-    display: flex;
-    flex-direction: column;
+     grid-template-areas: "logo . button""navbar navbar navbar";
+     display: flex;
+     flex-direction: column;
   }
+
   .headerimg {
-    order: 0;
+     order: 0;
   }
+
   .headerSignup {
-    order: 1;
+     order: 1;
   }
+
   .headerNav {
-    order: 2;
-    inline-size: -webkit-fill-available;
+     order: 2;
+     inline-size: -webkit-fill-available;
   }
+
   .headerNavLink {
-    border-top: none;
-    border-bottom: 3px solid #F2F2F2;
-    width: 50%;
+     border-top: none;
+     border-bottom: 3px solid #F2F2F2;
+     width: 50%;
   }
+
   .headerNavLink[data-active=true] {
-    border-bottom: 3px #F2F2F2 solid;
+     border-bottom: 3px #F2F2F2 solid;
   }
+
   .headerNavLink:hover {
-    border-bottom-color: black
-    ;
+     border-bottom-color: black;
   }
+
   .headerImg {
-    grid-area: logo;
-    padding-left: 11rem;
-    padding-right: 11rem;
-    height: 2rem;
+     grid-area: logo;
+     padding-left: 11rem;
+     padding-right: 11rem;
+     height: 2rem;
   }
-/* NavBar HEADER*/
-/* FILTRES */
-/* Hosting */
+
+  /* NavBar HEADER*/
+  /* FILTRES */
+  /* Hosting */
   .hostingMain {
-    gap: inherit;
+     gap: inherit;
   }
+
   .hostingPopular {
-    background-color: var(--grey);
-    padding: 40px;
-    border-radius: inherit;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    flex: 1;
-    font-size: medium;
-} 
-  .hostingMainCard {
-    background-color: white;
-    border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    box-sizing: border-box; 
-    height: 11rem;   
+     background-color: var(--grey);
+     padding: 40px;
+     border-radius: inherit;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     flex: 1;
+     font-size: medium;
   }
-/* ACTIVITY */
-/* FOOTER */    
+
+  .hostingMainCard {
+     background-color: white;
+     border-radius: 1.25rem;
+     box-shadow: 0 0 16px #0000002e;
+     transition-duration: 0.1s;
+     cursor: pointer;
+     box-sizing: border-box;
+     height: 11rem;
+  }
+
+  /* ACTIVITY */
+  /* FOOTER */
 }
