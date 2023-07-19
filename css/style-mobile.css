@@ -46,7 +46,9 @@
      grid-template-columns: repeat(4, 1fr);
      grid-template-rows: 1rem 3rem 2rem 14rem;
      min-width: 12rem;
-     height: 45rem;
+     height: 48rem;
+     padding-bottom: 2rem;
+     padding-left: 1rem;
 
   }
 
@@ -107,16 +109,22 @@
 
   .search-container {
      padding: 1rem;
+     padding-left: 4rem;
+     font-size: larger;
   }
 
   .searchHeaderSubtitle {
      padding: 0.9rem;
      margin: 0px;
+     padding-left: 4rem;
+     font-size: larger;
   }
 
   .searchHeaderTitle {
      padding: 1rem;
      margin: auto;
+     padding-left: 4rem;
+     font-size: x-large;
   }
 
   .desktopNone {
@@ -168,7 +176,7 @@
   .searchFilters {
      display: flex;
      font-size: small;
-     padding: 2rem;
+     padding-left: 4rem;
   }
 
   .searchFiltersTitle {
@@ -177,7 +185,7 @@
 
   .searchFiltersFilter {
      margin-right: 1rem;
-     font-size: small;
+     font-size: medium;
   }
 
   /* Hosting */
@@ -185,12 +193,11 @@
   .hostingPopular {
      grid-row-start: 1;
      background-color: #F2F2F2;
-     border-radius: 1.5rem;
-     padding: 1.5rem;
+     padding: 1.7rem;
   }
 
   .hostingMain {
-     padding: 20px;
+     padding: 1.7rem-;
      display: flex;
      flex-direction: column;
   }
@@ -218,6 +225,8 @@
   .activity-section {
      padding: 1rem;
      margin: auto;
+     padding-top: 1rem;
+     padding-bottom: 4rem;
   }
 
   /* FOOTER */
